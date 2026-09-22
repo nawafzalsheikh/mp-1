@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Roboto&amp;display=swap">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Projects | My Resume</title>
+</head>
+<body>
+    <div id="page-wrapper">
+        <header>
+            <h1>Nawaf Alsheikh</h1>
+            <p>My projects</p>
+        </header>
+        <div id="container">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="education.html">Education</a></li>
+                    <li><a href="experience.html">Experience</a></li>
+                    <li><a href="certifications.html">Certifications</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="career-goals.html">Career Goals</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                </ul>
+            </nav>
+            <main id="projects-main">
+                <h2>Projects</h2>
+                <h3>ReqCheck</h3>
+                <p>ReqCheck checks software requirements for unclear wording and helps users clarify them with AI. Users can save revisions and export documents as Markdown or PDF.</p>
+                <p><a href="https://reqcheck-web.vercel.app/">Try ReqCheck</a> | <a href="https://github.com/hjchen114514/ReqCheck">View ReqCheck on GitHub</a></p>
+                <div id="calculator">
+                    <h3>Calculator</h3>
+                    <p>For **, use a whole-number exponent from -10000 to 10000.</p>
+                    <div id="inputs">
+                        <label for="first-number">First number:</label>
+                        <input type="number" id="first-number">
+                        <label for="second-number">Second number:</label>
+                        <input type="number" id="second-number">
+                    </div>
+                    <div id="buttons">
+                        <button onclick="addition()">+</button>
+                        <button onclick="subtraction()">-</button>
+                        <button onclick="multiplication()">*</button>
+                        <button onclick="division()">/</button>
+                        <button onclick="power()">**</button>
+                        <button onclick="clearCalculator()">Clear</button>
+                    </div>
+                    <p id="output"></p>
+                </div>
+            </main>
+        </div>
+        <footer>
+            <p>All rights reserved by Nawaf Alsheikh. <a href="credits.html">Credits</a> &copy;</p>
+        </footer>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
